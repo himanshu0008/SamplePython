@@ -1,0 +1,5 @@
+string = input('Enter the integer string :').lower()
+try:
+    number = int (string)
+except:
+    print(string, "isn't a valid number")
