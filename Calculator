@@ -1,0 +1,34 @@
+import sys
+Class Calculator:
+#def __init__(self,Multiplier,num1,num2):
+# self.Multiplier = Multiplier
+# self.num1 = num1
+# self.num2 = num2
+
+def multiply(self,num1,num2):
+	print num1*num2
+ 
+def add(self,num1,num2):
+	print str(num1 + num2)
+
+def subtract(self,num1,num2)
+	print num1 - num2
+
+def divide(self,num1,num2)
+	print num1/num2 
+	
+Class Execute(Calculator):
+#def __init__(self,Multiplier,num1,num2):
+#Calculator.__init__(self,Multiplier,num1,num2):
+
+def run(self,Multiplier,num1,num2):
+	operationdict = {"Add":self.add,"Multiply":self.multiply,"Subtract":self.subtract,"Divide":self.divide}
+	
+	operationdict[Multiplier](num1,num2)
+	
+Multiplier = str(sys.argv[3])
+num1 = int(sys.argv[1])
+num2 = int(sys.argv[2])
+ExecObj = Execute()
+Execute.run(self,Multiplier,num1,num2)
+	
